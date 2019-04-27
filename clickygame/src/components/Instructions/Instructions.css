@@ -4,7 +4,7 @@
 
 .jumbotron {
     box-shadow: 0 2px 5px 0 darkslategray;
-    font-family: 'Patua One', cursive;
+    font-family: 'Press Start 2P', cursive;
     font-size: 1.3em;
     font-weight: bold;
     
@@ -12,4 +12,5 @@
 
 .instructions {
     text-align: center;
+    color: white;
 }
