@@ -44,13 +44,12 @@ class GameMessage extends Component {
         case "incorrect":
           return "You guessed incorrectly!";
         default:
-          return "Click a character to begin!";
+          return "Click a pokemon to begin!";
         }
     };
 
     // add animation class when animateClass state updates
     // animations from aniamte.css library
-    // https://daneden.github.io/animate.css/
     addAnimation = () => {
       switch (this.state.message) {
         case "correct":
